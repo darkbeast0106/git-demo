@@ -5,6 +5,6 @@ commit -m "Üzenet" - létrehoz egy új commitot
 config - konfigurációs beállítások
 help [command] - súgo oldal megnyitása az adott parancshoz
 
-
+remote - távoli repok kezelése (hozzáadás, törlés)
 pull - letölti a távoli változtatásokat és frissíti a repot a legfrissebb verzióra
 fetch - letölti a távoli változtatásokat, de nem frissíti a repot
