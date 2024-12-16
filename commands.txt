@@ -1,0 +1,10 @@
+init - létrehoz egy új git repot
+add [filepath] - hozzáadja a megadott fájlt a következő commithoz
+add . - hozzáadja az összes fájlt a következő commithoz
+commit -m "Üzenet" - létrehoz egy új commitot
+config - konfigurációs beállítások
+help [command] - súgo oldal megnyitása az adott parancshoz
+
+
+pull - letölti a távoli változtatásokat és frissíti a repot a legfrissebb verzióra
+fetch - letölti a távoli változtatásokat, de nem frissíti a repot
