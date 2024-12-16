@@ -9,6 +9,4 @@ remote - távoli repok kezelése (hozzáadás, törlés)
 pull - letölti a távoli változtatásokat és frissíti a repot a legfrissebb verzióra
 fetch - letölti a távoli változtatásokat, de nem frissíti a repot
 
-
-
 alias - saját utasítások létrehozása, más git utasítások felhasználásával
