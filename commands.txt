@@ -10,3 +10,8 @@ pull - letölti a távoli változtatásokat és frissíti a repot a legfrissebb 
 fetch - letölti a távoli változtatásokat, de nem frissíti a repot
 
 alias - saját utasítások létrehozása, más git utasítások felhasználásával
+pl.: az alábbi utasítás létrehozza a "git gud" parancsot
+ ami egy commit üzenet paramétert vár, minden módosítást lecommitol a paraméterül kapott üzenettel, 
+ majd pull és push utasításokat végrehajtja
+
+git config --global alias.gud "!git commit -a -m \"$1\" && git pull && git push && :"
